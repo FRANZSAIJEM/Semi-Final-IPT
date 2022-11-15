@@ -1,0 +1,147 @@
+$data = [
+            [
+                'name' => 'Ace Joy',
+                'address'=> 'Tubigon',
+                'phone' => '09123456789',
+                'investment' => '12000.00',
+            ],
+
+            [
+                'name' => 'Janna Abisao',
+                'address'=> 'Inabanga',
+                'phone' => '09876543211',
+                'investment' => '55000.00',
+            ],
+
+            [
+                'name' => 'Francis Michael',
+                'address'=> 'Inabanga',
+                'phone' => '09665067009',
+                'investment' => '100000.00',
+            ],
+
+            [
+                'name' => 'Shinny Rose',
+                'address'=> 'Inabanga',
+                'phone' => '09606765143',
+                'investment' => '140000.00',
+            ],
+
+            [
+                'name' => 'Denice Jane',
+                'address'=> 'Inabanga',
+                'phone' => '096786543212',
+                'investment' => '700000.00',
+            ],
+
+            [
+                'name' => 'Christian Sancedon',
+                'address'=> 'Tinangnan',
+                'phone' => '09675342671',
+                'investment' => '1234500.00',
+            ],
+
+            [
+                'name' => 'Mark Lister',
+                'address'=> 'Tubigon',
+                'phone' => '0966789543',
+                'investment' => '500500.00',
+            ],
+
+            [
+                'name' => 'Apple Jane',
+                'address'=> 'Calape',
+                'phone' => '0954326563',
+                'investment' => '200000.00',
+            ],
+
+            [
+                'name' => 'Lauros',
+                'address'=> 'Loon',
+                'phone' => '094564235',
+                'investment' => '450000.00',
+            ],
+
+            [
+                'name' => 'Bruce Unabia',
+                'address'=> 'Clarin',
+                'phone' => '0934524523',
+                'investment' => '35000.00',
+            ],
+
+            [
+                'name' => 'Angela Lenteria',
+                'address'=> 'Clarin',
+                'phone' => '0932523154',
+                'investment' => '650000.00',
+            ],
+
+            [
+                'name' => 'Catalan',
+                'address'=> 'Tubigon',
+                'phone' => '0923452113',
+                'investment' => '125400.00',
+            ],
+
+            [
+                'name' => 'Nathaniel',
+                'address'=> 'Tubign',
+                'phone' => '0913452341',
+                'investment' => '200500.00',
+            ],
+
+            [
+                'name' => 'Loue Jay',
+                'address'=> 'Tinangnan',
+                'phone' => '0923434562',
+                'investment' => '500000.00',
+            ],
+
+            [
+                'name' => 'Lovely Jane',
+                'address'=> 'Potohan',
+                'phone' => '09123451234',
+                'investment' => '450000.00',
+            ],
+
+            [
+                'name' => 'Mary Rose',
+                'address'=> 'Inabanga',
+                'phone' => '0923451234',
+                'investment' => '400000.00',
+            ],
+
+            [
+                'name' => 'Barz',
+                'address'=> 'Inabanga',
+                'phone' => '09123423454',
+                'investment' => '500500.00',
+            ],
+
+            [
+                'name' => 'Lorrence',
+                'address'=> 'Inabanga',
+                'phone' => '09234523452',
+                'investment' => '200000.00',
+            ],
+
+            [
+                'name' => 'Rosalino',
+                'address'=> 'Tubigon',
+                'phone' => '09234513243',
+                'investment' => '300000.00',
+            ],
+
+            [
+                'name' => 'Lester',
+                'address'=> 'tubigon',
+                'phone' => '09234512343',
+                'investment' => '4300000.00',
+            ]
+
+
+        ];
+
+        foreach($data as $investors){
+            \App\Investor::create($investors);
+        }
